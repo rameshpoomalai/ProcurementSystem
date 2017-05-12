@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.ibm.com/"
+    "url": "https://github.com/rameshpoomalai/ProcurementSystem.git"
   },
-  "author": "Ramesh Poomalai <ramesh.poomalai@in.ibm.com>",
+  "author": "Ramesh Poomalai <ramesh.poomalai@in.ibm.com>,Rajesh H Gudikoti <ragudiko@in.ibm.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/"
+    "url": "https://github.com/rameshpoomalai/ProcurementSystem/issues"
   },
-  "homepage": "https://github.comn",
+  "homepage": "https://github.com/rameshpoomalai/ProcurementSystem",
   "dependencies": {
     "argparse": "^1.0.2",
     "async": "^2.0.1",
