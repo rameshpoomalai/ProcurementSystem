@@ -45,16 +45,12 @@ cf create-service "Discovery" Free ProcurementSystemDiscovery
   ```
 9. Push the app.
 
-   ```
+  ```
 # optionally, log in
 cf api <API_URL> # e.g. https://api.ng.bluemix.net
 cf login
 # deploy the app
 cf push
 
-   ```
-## Documentation
-* [IBM Graph documentation](https://ibm-graph-docs.ng.bluemix.net/)
-* [IBM Graph interactive guide for Node.js](https://ibm-graph-docs.ng.bluemix.net/interactive-guide-node-js.html)
-
+  ```
 
