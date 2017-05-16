@@ -15,3 +15,6 @@ applications:
   buildpack: sdk-for-nodejs
   host: Procurement-System
   random-route: true
+  services:
+  - ProcurementSystemGraph
+  - ProcurementSystemDiscovery
