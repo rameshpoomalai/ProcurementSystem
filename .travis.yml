@@ -19,7 +19,7 @@ deploy:
   provider: bluemixcloudfoundry
   username: rpoomala@in.ibm.com
   password: March@2009
-  organization: ramesh.poomalai@in.ibm.com
+  organization: rpoomala@in.ibm.com
   space: dev
   manifest: manifest.yml          # (optional)  Defaults to manifest.yml.
   region: ng                       # (optional)  [ng, eu-gb , au-syd] Defaults to US South region (ng).
