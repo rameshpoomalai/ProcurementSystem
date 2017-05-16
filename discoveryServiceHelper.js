@@ -1,6 +1,6 @@
 
 // Load env
-require('dotenv').load();
+require('dotenv').load({ silent: true });
 
 var DiscoveryV1 = require('watson-developer-cloud/discovery/v1');
 var GDS       = require('ibm-graph-client');
