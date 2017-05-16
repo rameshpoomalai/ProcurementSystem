@@ -39,5 +39,11 @@
   },
   "engines": {
     "node": ">=5"
-  }
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+  "test": "./node_modules/jshint/bin/jshint test/test.express.js"
+}
 }
