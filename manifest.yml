@@ -5,7 +5,7 @@ declared-services:
     plan: Standard
   ProcurementSystemDiscovery:
     label: Discovery
-    plan: Free
+    plan: Standard
 applications:
 - name: ProcurementSystem
   memory: 256M
