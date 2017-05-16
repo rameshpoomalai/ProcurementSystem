@@ -4,8 +4,8 @@ declared-services:
     label: IBM Graph
     plan: Standard
   ProcurementSystemDiscovery:
-    label: Discovery
-    plan: Standard
+    label: discovery
+    plan: free
 applications:
 - name: ProcurementSystem
   memory: 256M
