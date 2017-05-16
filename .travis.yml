@@ -15,16 +15,15 @@ env:
   - CF_ORGANIZATION=ramesh.poomalai@in.ibm.com
   - CF_SPACE=dev
 before_deploy: npm install -g cf-blue-green
- deploy:
-   edge: true
-   provider: bluemixcloudfoundry
-   username: ramesh.poomalai@in.ibm.com
-   password: March@200
-   organization: ramesh.poomalai@in.ibm.com
-   space: dev
-   manifest: manifest.yml          # (optional)  Defaults to manifest.yml.
-   region: ng                       # (optional)  [ng, eu-gb , au-syd] Defaults to US South region (ng).
-   api: https://api.ng.bluemix.net      # (optional)  Overrides region setting if specifed for Bluemix local installations.
+deploy:
+  provider: bluemixcloudfoundry
+  username: ramesh.poomalai@in.ibm.com
+  password: March@200
+  organization: ramesh.poomalai@in.ibm.com
+  space: dev
+  manifest: manifest.yml          # (optional)  Defaults to manifest.yml.
+  region: ng                       # (optional)  [ng, eu-gb , au-syd] Defaults to US South region (ng).
+  api: https://api.ng.bluemix.net      # (optional)  Overrides region setting if specifed for Bluemix local installations.
 notifications:
   email:
     - ramesh.poomalai@in.ibm.com
