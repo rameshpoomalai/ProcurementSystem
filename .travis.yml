@@ -17,7 +17,7 @@ env:
 before_deploy: npm install -g cf-blue-green
 deploy:
   provider: bluemixcloudfoundry
-  username: ramesh.poomalai@in.ibm.com
+  username: rpoomala@in.ibm.com
   password: March@200
   organization: ramesh.poomalai@in.ibm.com
   space: dev
