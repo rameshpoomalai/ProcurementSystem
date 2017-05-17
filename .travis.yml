@@ -17,13 +17,13 @@ env:
 before_deploy: npm install -g cf-blue-green
 deploy:
   provider: bluemixcloudfoundry
-  username: rpoomala@in.ibm.com
-  password: text@1234
-  organization: rpoomala@in.ibm.com
+  username: procurementsystem@outlook.com
+  password: March@2017
+  organization: procurementsystem
   space: dev
   manifest: manifest.yml          # (optional)  Defaults to manifest.yml.
   region: ng                       # (optional)  [ng, eu-gb , au-syd] Defaults to US South region (ng).
   api: https://api.ng.bluemix.net      # (optional)  Overrides region setting if specifed for Bluemix local installations.
 notifications:
   email:
-    - ramesh.poomalai@in.ibm.com
+    - procurementsystem@outlook.com
