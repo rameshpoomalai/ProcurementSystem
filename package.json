@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "test",
+
     "start-dev": "nodemon --ext js,jade,env index.js",
     "postinstall": "npm run setup",
     "setup": "node setup.js",
