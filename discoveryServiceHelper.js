@@ -91,18 +91,7 @@ var syncservice = {};
             var price="";
             var market="";
 
-            console.log('\n\nGrouped Results:>>>>>>>>:'+attributename);
-            groupedData[attributename].forEach(function (markeData, index)
-            {
-              console.log("markeData.type                         :"+markeData.type);
-              console.log('markeData.arguments[0].entities[0].type:',markeData.arguments[0].entities[0].type);
-              console.log('markeData.arguments[0].entities[0].text:',markeData.arguments[0].entities[0].text);
-              console.log('markeData.arguments[1].text            :',markeData.arguments[0].text);
-              console.log('markeData.arguments[1].entities[0].type:',markeData.arguments[1].entities[0].type);
-              console.log('markeData.arguments[1].entities[0].text:',markeData.arguments[1].entities[0].text);
-              console.log('markeData.arguments[1].text            :',markeData.arguments[1].text);
 
-            });
 
             //  for(var attributename in groupedData)
             //  {
@@ -128,7 +117,22 @@ var syncservice = {};
 
                   var entityText2 = item.arguments[1].entities[0].text;
                   var entityPart2 = item.arguments[1].part;
-                  var attributename=item.sentence
+                  var attributename=item.sentence;
+
+
+                  console.log('\n\nGrouped Results:>>>>>>>>:'+attributename);
+                  groupedData[attributename].forEach(function (markeData, index)
+                  {
+                    console.log("markeData.type                         :"+markeData.type);
+                    console.log('markeData.arguments[0].entities[0].type:',markeData.arguments[0].entities[0].type);
+                    console.log('markeData.arguments[0].entities[0].text:',markeData.arguments[0].entities[0].text);
+                    console.log('markeData.arguments[1].text            :',markeData.arguments[0].text);
+                    console.log('markeData.arguments[1].entities[0].type:',markeData.arguments[1].entities[0].type);
+                    console.log('markeData.arguments[1].entities[0].text:',markeData.arguments[1].entities[0].text);
+                    console.log('markeData.arguments[1].text            :',markeData.arguments[1].text);
+
+                  });
+                  
 
                   if(item.type=='PriceRangeinMarket')
                   {
