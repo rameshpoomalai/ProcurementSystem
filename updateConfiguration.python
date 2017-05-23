@@ -11,5 +11,5 @@ discovery = DiscoveryV1(
 
 with open(os.path.join(os.getcwd(), 'my_config.json')) as config_data:
   data = json.load(config_data)
-  updated_config = discovery.update_configuration('c1cebfb0-0cc5-4c4b-b4e3-76733852e736', '5fc005fc-ee74-4394-92e5-db96ef8d788e', data)
+  updated_config = discovery.update_configuration('c1cebfb0-0cc5-4c4b-b4e3-76733852e736', 'be94907f-e7cc-4915-95f5-84dcc23ae5e7', data)
 print(json.dumps(updated_config, indent=2))

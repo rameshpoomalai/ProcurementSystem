@@ -1,6 +1,6 @@
 {
   "configuration_id": "5fc005fc-ee74-4394-92e5-db96ef8d788e",
-  "name": "ProcurementSystemConfig",
+  "name": "ProcurementSystemConfigs",
   "description": null,
   "created": "2017-03-15T04:29:59.540Z",
   "updated": "2017-03-15T04:31:19.802Z",
@@ -132,7 +132,7 @@
       "options": {
         "extract": "typed-rels,keyword, entity, doc-sentiment, taxonomy, concept, relation",
         "showSourceText": 1,
-        "model": "b91177dc-4d0c-4acf-aa20-79efe442aaa2"
+        "model": "03d6433d-3bc0-4098-b317-3c771d255af0"
       }
     }
 
