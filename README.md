@@ -1,7 +1,7 @@
 ![Build Status](https://travis-ci.org/rameshpoomalai/ProcurementSystem.svg?branch=master)
 ![Bluemix Deployments](https://deployment-tracker.mybluemix.net/stats/4b751f79e33f1202fce05f6ba8c0e740/badge.svg)
 
-Watson Knowledge Studio-Discovery-BM Graph
+Watson Knowledge Studio-Discovery-IBM Graph
 In this journey, we will be creating complete end to end AI solution for procurement use case.
 
 The steps followed to create solution is as follows. For commands please refer Running the application on Bluemix section below.
