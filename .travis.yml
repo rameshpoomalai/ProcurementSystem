@@ -13,17 +13,7 @@ env:
   - CF_API=https://api.ng.bluemix.net
   - CF_ORGANIZATION=ramesh.poomalai@in.ibm.com
   - CF_SPACE=dev
-before_deploy: npm install -g cf-blue-green
-deploy:
-  provider: bluemixcloudfoundry
-  username: procurementsystem@outlook.com
-  password:
-    secure: F2gf9S2gXDYKCZ5rnr3z5s1HfUd5J7tJtMWm4IiaKFeWn5IsUv/QH0eSDi5frlpjNvb8yfcspjpnUK7DvHGmMhcQ6k8uEVuCzS4auoehgfAo56pBPVK78ZPvit29ErJq4On0zkIMsoo0SG9ulg+oOI7CyhUV/vrsGM0FjZ/jCx+sNzmHVsWZiBSvcSq6N0FpE9grYVbFqxVE+7DeHvnKQXItelEzoiVWXQ70rZjdfxbJL5Cm+Z1RkLg6bXwZSL8qJETANRhMFh/WHk9MrWMmqd3IWhk1j7HuGulUsuuQhI6LpqAowH7N02PPjN/Ew1Nblv/os7QCtah23PMFXm0z18IGPuFa+NYeyDRcFmYnWmBeRqGhuM9HRbTx9NjdD+JY4iU4yy083gPzSsHbtjv8CxmrOc4RUSwZTkZOIIiWZh/pJ5ylxtnvdvwnhRwvIoCYEksNm3YZqZ/fJt8HF52k1kfXSyFEkHHyqguaSThBVA3ZcxwkySYFkCR5YtjCC+oD1dgIeytTRLA2eAKYFP0ONoWSIaNHZKkhzTPD/CK81RzxehuHgN4n6sMwJx1auztOuoI6sNR2i8yvHz7oGVzz3apIGOMGjaNuC8re9/Td4l7MqaIjdQI5jFsIObHqkckCC2EUjITWmg4or859vbrvSsCMaYq+T8iTGFxi0iPM9U8
-  organization: procurementsystem
-  space: dev
-  manifest: manifest.yml
-  region: ng
-  api: https://api.ng.bluemix.net
+
 notifications:
   email:
   - procurementsystem@outlook.com
